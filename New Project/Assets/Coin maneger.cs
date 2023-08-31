@@ -7,7 +7,10 @@ public class Coinmaneger : MonoBehaviour
     public GameObject prefab;
     public GameObject coin;
 
+    void Start(){
+        coin = GameObject.FindGameObjectWithTag("Coin");
 
+    }
     // Update is called once per frame
     void Update()
     {
@@ -24,5 +27,6 @@ public class Coinmaneger : MonoBehaviour
 
         coin = Instantiate(prefab);
         coin.transform.position = position;
+
     }
 }
