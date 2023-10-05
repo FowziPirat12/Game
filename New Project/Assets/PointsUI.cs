@@ -19,7 +19,7 @@ public class PointsUI : MonoBehaviour
     void Update()
     {
         int p = points.Points;
-        text.text = "points :" + p;
+        text.text = "Points: " + p;
 
     }
 }

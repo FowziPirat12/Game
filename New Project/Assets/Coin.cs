@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-
+    
     float time = 0;
     void Update()
     {
