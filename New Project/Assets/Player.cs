@@ -10,6 +10,9 @@ public class Player : MonoBehaviour
         get { return points; }
     }
     // Start is called before the first frame update
+
+
+    static public bool dialogue = false;
     void Start()
     {
         
